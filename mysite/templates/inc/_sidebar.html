@@ -1,0 +1,22 @@
+{% load news_tags %}
+
+{% comment 'было когда в работе был симплтэг' %}
+<div class="list-group">
+    {% get_categories as categories %}
+    {% for item in categories %}
+    <a href="{% url 'category' item.pk %}" class="list-group-item list-group-item-action">{{ item.title }}F</a>
+
+    {% endfor %}
+</div>
+{% endcomment %}
+
+{% show_categories %}
+
+{% comment  %}
+можно было тупо строчки
+{% load news_tags %}
+и
+{% show_categories %}
+вставить как минимум в index.html и category.html если не в base.html
+
+{% endcomment %}

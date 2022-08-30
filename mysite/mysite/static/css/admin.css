@@ -1,0 +1,38 @@
+#header {
+    background: #f48fb1;
+    color: #fff;
+    font-weight: 600;
+}
+
+#branding h1 a:visited {
+    color: #fff;
+    font-weight: 600;
+}
+
+div.breadcrumbs {
+    background: #ec407a;
+    color: #fff;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #ff80ab;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: #f8bbd0;
+}
+
+div.breadcrumbs a:focus, div.breadcrumbs a:hover {
+    color: #ff80ab;
+}
+
+#nav-sidebar .current-app .section:visited {
+    color: #fff;
+}
+
+a:link, a:visited {
+    color: #e91e63;
+}
+
+

@@ -1,0 +1,9 @@
+body{
+    background-color: #fce4ec;
+}
+
+.errorlist{
+    color: red;
+    list-style: none;
+
+}
